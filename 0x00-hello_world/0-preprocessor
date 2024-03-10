@@ -1,8 +1,3 @@
 #!/bin/bash
-
-# Save the C file name in the variable $CFILE
-CFILE="main.c"
-
-# Run the C file through the preprocessor and save the result into another file
 gcc -E "$CFILE" -o c
 
