@@ -1,10 +1,12 @@
 #include <stdio.h>
-
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	/* Use the puts function to print the specified string */
-	puts("Programming is like building a multilingual puzzle");
-
-	/* End the program with the value 0 */
-	return (0);
+char str[] = "Programming is like building a multilingual puzzle\n";
+puts(str);
+return (0);
 }
